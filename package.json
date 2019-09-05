@@ -1,0 +1,16 @@
+{
+  "name": "simple-ftp-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node deploy",
+    "deploy:fast": "cross-env RULE=fast node deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ftp-deploy": "^2.3.3"
+  }
+}
